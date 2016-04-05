@@ -6,6 +6,7 @@ type modem_block_device, dev_type;
 type trim_area_partition_device, dev_type;
 
 # /dev devices
+type qmuxd_socket, dev_type;
 type rfkill_device, dev_type;
 type rmi_device, dev_type;
 type shared_log_device, dev_type;
