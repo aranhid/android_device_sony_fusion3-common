@@ -2,3 +2,4 @@ service macaddrsetup /vendor/bin/macaddrsetup
      class late_start
      user root
      oneshot
+     seclabel u:r:macaddrsetup:s0
