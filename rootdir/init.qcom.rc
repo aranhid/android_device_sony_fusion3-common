@@ -329,6 +329,7 @@ service tad_static /vendor/bin/tad_static /dev/block/platform/msm_sdcc.1/by-name
 service ta_qmi_client /vendor/bin/ta_qmi_client
     class main
     user root
+    group system wakelock
 
 service updatemiscta /vendor/bin/updatemiscta
     class main
