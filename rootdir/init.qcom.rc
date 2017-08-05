@@ -334,6 +334,7 @@ service ta_qmi_client /vendor/bin/ta_qmi_client
 service updatemiscta /vendor/bin/updatemiscta
     class main
     user root
+    group root system
     oneshot
 
 # OSS thermal management
