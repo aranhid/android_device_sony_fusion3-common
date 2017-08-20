@@ -278,6 +278,7 @@ service fm_dl /vendor/bin/init.qcom.fm.sh
     group system
     disabled
     oneshot
+    seclabel u:r:fm_dl:s0
 
 service mpdecision /system/bin/mpdecision --avg_comp
     class main
