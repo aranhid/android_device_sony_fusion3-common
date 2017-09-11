@@ -52,6 +52,10 @@
 
 # /sys
 /sys/devices/platform/ir_remote_control/enable                                    u:object_r:sysfs_ir_remote_control:s0
+/sys/class/power_supply/battery(/.*)?                                             u:object_r:sysfs_batteryinfo:s0
+/sys/class/thermal(/.*)?                                                          u:object_r:sysfs_thermal:s0
+/sys/devices/platform/msm_ssbi\.0/pm8921-core/pm8921-charger/power_supply(/.*)?   u:object_r:sysfs_batteryinfo:s0
+/sys/devices/platform/msm_ssbi\.0/pm8921-core/pm8xxx-adc(/.*)?                    u:object_r:sysfs_batteryinfo:s0
 /sys/devices/platform/kgsl-3d0\.0/kgsl/kgsl-3d0/gpuclk                            u:object_r:sysfs_thermal:s0
 /sys/devices/platform/kgsl-3d0\.0/kgsl/kgsl-3d0/max_gpuclk                        u:object_r:sysfs_thermal:s0
 /sys/devices/platform/kgsl-3d0\.0/kgsl/kgsl-3d0/reset_count                       u:object_r:sysfs_thermal:s0
@@ -61,6 +65,7 @@
 /sys/devices/virtual/graphics/fb([0-2])+/vendor_name                              u:object_r:sysfs_surfaceflinger:s0
 /sys/devices/virtual/graphics/fb([0-2])+/product_description                      u:object_r:sysfs_surfaceflinger:s0
 /sys/devices/virtual/input/input1/wakeup_gesture                                  u:object_r:sysfs_touchpanel:s0
+/sys/devices/virtual/thermal(/.*)?                                                u:object_r:sysfs_thermal:s0
 /sys/devices/virtual/timed_output/vibrator/level                                  u:object_r:sysfs_vibrator:s0
 
 # debugfs
