@@ -5,8 +5,9 @@ init_daemon_domain(macaddrsetup)
 
 unix_socket_connect(macaddrsetup, tad, tad)
 
+#============= macaddrsetup ==============
 allow macaddrsetup bluetooth_data_file:dir rw_dir_perms;
 allow macaddrsetup bluetooth_data_file:file create_file_perms;
-allow macaddrsetup self:capability { dac_override fowner chown fsetid };
+allow macaddrsetup self:capability { chown fowner fsetid };
 allow macaddrsetup sysfs_mac_address:file rw_file_perms;
 allow macaddrsetup sysfs_mac_serial:file rw_file_perms;
