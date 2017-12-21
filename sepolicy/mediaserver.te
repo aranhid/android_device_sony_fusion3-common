@@ -1,0 +1,11 @@
+#============= mediaserver ==============
+allow mediaserver audio_device:chr_file { ioctl open read write };
+allow mediaserver camera_data_file:dir create_dir_perms;
+allow mediaserver camera_data_file:file create_file_perms;
+allow mediaserver camera_prop:property_service set;
+allow mediaserver sensorservice_service:service_manager find;
+allow mediaserver sysfs_batteryinfo:dir search;
+allow mediaserver sysfs_batteryinfo:file { getattr open read };
+allow mediaserver sysfs_batteryinfo:lnk_file read;
+allow mediaserver system_file:file execmod;
+allow mediaserver system_server:unix_stream_socket { read write };
