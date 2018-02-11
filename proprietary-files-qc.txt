@@ -1,45 +1,45 @@
 # ADSP
-lib/libadsprpc.so
+lib/libadsprpc.so:vendor/lib/libadsprpc.so
 
 # Audio
-lib/libacdbloader.so
-lib/libcsd-client.so
+lib/libacdbloader.so:vendor/lib/libacdbloader.so
+lib/libcsd-client.so:vendor/lib/libcsd-client.so
 
 # Bluetooth
-bin/btnvtool
-bin/hci_qcomm_init
+bin/btnvtool:vendor/bin/btnvtool
+bin/hci_qcomm_init:vendor/bin/hci_qcomm_init
 vendor/lib/libbtnv.so
 
 # Bootloader firmware
-etc/firmware/rpm.mbn
-etc/firmware/sbl1.mbn
-etc/firmware/sbl2.mbn
+etc/firmware/rpm.mbn:vendor/etc/firmware/rpm.mbn
+etc/firmware/sbl1.mbn:vendor/etc/firmware/sbl1.mbn
+etc/firmware/sbl2.mbn:vendor/etc/firmware/sbl2.mbn
 
 # Camera
-lib/libmmcamera_hdr_lib.so
-lib/libmmcamera_image_stab.so
-lib/libmmcamera_tintless_algo.so
-lib/libmmcamera_tintless_wrapper.so
-lib/libmmcamera_wavelet_lib.so
+lib/libmmcamera_hdr_lib.so:vendor/lib/libmmcamera_hdr_lib.so
+lib/libmmcamera_image_stab.so:vendor/lib/libmmcamera_image_stab.so
+lib/libmmcamera_tintless_algo.so:vendor/lib/libmmcamera_tintless_algo.so
+lib/libmmcamera_tintless_wrapper.so:vendor/lib/libmmcamera_tintless_wrapper.so
+lib/libmmcamera_wavelet_lib.so:vendor/lib/libmmcamera_wavelet_lib.so
 
 # Data
-bin/netmgrd
-lib/libdsi_netctrl.so
-lib/libdsutils.so
-lib/libnetmgr.so
-lib/libqdi.so
-lib/libqdp.so
+bin/netmgrd:vendor/bin/netmgrd
+lib/libdsi_netctrl.so:vendor/lib/libdsi_netctrl.so
+lib/libdsutils.so:vendor/lib/libdsutils.so
+lib/libnetmgr.so:vendor/lib/libnetmgr.so
+lib/libqdi.so:vendor/lib/libqdi.so
+lib/libqdp.so:vendor/lib/libqdp.so
 
 # Diag
 vendor/lib/libdiag.so
 
 # FM
-bin/fmconfig
-bin/fm_qsoc_patches
+bin/fmconfig:vendor/bin/fmconfig
+bin/fm_qsoc_patches:vendor/bin/fm_qsoc_patches
 
 # GPS
-lib/libloc_api_v02.so
-lib/libloc_ds_api.so
+lib/libloc_api_v02.so:vendor/lib/libloc_api_v02.so
+lib/libloc_ds_api.so:vendor/lib/libloc_ds_api.so
 vendor/lib/libgeofence.so
 vendor/lib/libizat_core.so
 vendor/lib/liblbs_core.so
@@ -67,45 +67,45 @@ vendor/firmware/a300_pfp.fw
 vendor/firmware/a300_pm4.fw
 
 # MultiMedia
-lib/libgemini.so
-lib/libimage-omx-common.so
-lib/libmmjpeg.so
-lib/libmmmpod.so
-lib/libmercury.so
-lib/libmmstillomx.so
+lib/libgemini.so:vendor/lib/libgemini.so
+lib/libimage-omx-common.so:vendor/lib/libimage-omx-common.so
+lib/libmmjpeg.so:vendor/lib/libmmjpeg.so
+lib/libmmmpod.so:vendor/lib/libmmmpod.so
+lib/libmercury.so:vendor/lib/libmercury.so
+lib/libmmstillomx.so:vendor/lib/libmmstillomx.so
 
 # Perf
-bin/mpdecision
+bin/mpdecision:vendor/bin/mpdecision
 vendor/lib/libqti-perfd-client.so
 
 # Protocol Buffers
-lib/libprotobuf-c.so
+lib/libprotobuf-c.so:vendor/lib/libprotobuf-c.so
 
 # Radio kickstart
-bin/ks
+bin/ks:vendor/bin/ks
 
 # QCRIL
-lib/libril-qc-qmi-1.so
+lib/libril-qc-qmi-1.so:vendor/lib/libril-qc-qmi-1.so
 
 # QMI
-bin/qmuxd
-lib/libidl.so
-lib/libqcci_legacy.so
-lib/libqmi.so
-lib/libqmi_client_qmux.so
-lib/libqmiservices.so
+bin/qmuxd:vendor/bin/qmuxd
+lib/libidl.so:vendor/lib/libidl.so
+lib/libqcci_legacy.so:vendor/lib/libqcci_legacy.so
+lib/libqmi.so:vendor/lib/libqmi.so
+lib/libqmi_client_qmux.so:vendor/lib/libqmi_client_qmux.so
+lib/libqmiservices.so:vendor/lib/libqmiservices.so
 vendor/lib/libqmi_cci.so
 vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
 
 # Security
-lib/libidd.so
-lib/libkeyctrl.so
-lib/libpin-cache.so
-etc/firmware/efs1.mbn
-etc/firmware/efs2.mbn
-etc/firmware/efs3.mbn
+lib/libidd.so:vendor/lib/libidd.so
+lib/libkeyctrl.so:vendor/lib/libkeyctrl.so
+lib/libpin-cache.so:vendor/lib/libpin-cache.so
+etc/firmware/efs1.mbn:vendor/etc/firmware/efs1.mbn
+etc/firmware/efs2.mbn:vendor/etc/firmware/efs2.mbn
+etc/firmware/efs3.mbn:vendor/etc/firmware/efs3.mbn
 vendor/firmware/keymaster/keymaster.b00
 vendor/firmware/keymaster/keymaster.b01
 vendor/firmware/keymaster/keymaster.b02
@@ -122,25 +122,25 @@ vendor/lib/libtime_genoff.so
 vendor/lib/libuiblur.so
 
 # USB
-bin/usbhub
-bin/usbhub_init
+bin/usbhub:vendor/bin/usbhub
+bin/usbhub_init:vendor/bin/usbhub_init
 
 # VIDC firmware
-etc/firmware/vidc.b00
-etc/firmware/vidc.b01
-etc/firmware/vidc.b02
-etc/firmware/vidc.b03
-etc/firmware/vidc.mdt
-etc/firmware/vidc_1080p.fw
-etc/firmware/vidcfw.elf
+etc/firmware/vidc.b00:vendor/etc/firmware/vidc.b00
+etc/firmware/vidc.b01:vendor/etc/firmware/vidc.b01
+etc/firmware/vidc.b02:vendor/etc/firmware/vidc.b02
+etc/firmware/vidc.b03:vendor/etc/firmware/vidc.b03
+etc/firmware/vidc.mdt:vendor/etc/firmware/vidc.mdt
+etc/firmware/vidc_1080p.fw:vendor/etc/firmware/vidc_1080p.fw
+etc/firmware/vidcfw.elf:vendor/etc/firmware/vidcfw.elf
 
 # Widevine DRM
 vendor/lib/mediadrm/libwvdrmengine.so|66ba66d047044f92eb0eada1faf6a5799ded90ab
 
 # WiFi Firmware
-etc/firmware/wcnss.b00
-etc/firmware/wcnss.b01
-etc/firmware/wcnss.b02
-etc/firmware/wcnss.b04
-etc/firmware/wcnss.b05
-etc/firmware/wcnss.mdt
+etc/firmware/wcnss.b00:vendor/etc/firmware/wcnss.b00
+etc/firmware/wcnss.b01:vendor/etc/firmware/wcnss.b01
+etc/firmware/wcnss.b02:vendor/etc/firmware/wcnss.b02
+etc/firmware/wcnss.b04:vendor/etc/firmware/wcnss.b04
+etc/firmware/wcnss.b05:vendor/etc/firmware/wcnss.b05
+etc/firmware/wcnss.mdt:vendor/etc/firmware/wcnss.mdt
