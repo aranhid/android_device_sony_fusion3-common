@@ -1,24 +1,24 @@
 # Audio
-etc/firmware/acdb.mbn:vendor/etc/firmware/acdb.mbn
-etc/firmware/mdm_acdb.img:vendor/etc/firmware/mdm_acdb.img
+etc/firmware/acdb.mbn
+etc/firmware/mdm_acdb.img
 
 # Camera
-lib/hw/camera.vendor.qcom.so:vendor/lib/hw/camera.vendor.qcom.so
-lib/libcald_client.so:vendor/lib/libcald_client.so
-lib/libcald_hal.so:vendor/lib/libcald_hal.so
-lib/libcald_imageutil.so:vendor/lib/libcald_imageutil.so
-lib/libcald_pal.so:vendor/lib/libcald_pal.so
-lib/libcald_util.so:vendor/lib/libcald_util.so
-lib/libcamera_clientsemc.so:vendor/lib/libcamera_clientsemc.so
-lib/libcameralight.so:vendor/lib/libcameralight.so
-lib/libface.so:vendor/lib/libface.so
-lib/libmmcamera_3a_legacy.so:vendor/lib/libmmcamera_3a_legacy.so
-lib/libmmcamera_faceproc.so:vendor/lib/libmmcamera_faceproc.so
-lib/libmmcamera_frameproc.so:vendor/lib/libmmcamera_frameproc.so
-lib/libmmcamera_imx091.so:vendor/lib/libmmcamera_imx091.so
-lib/libmmcamera_plugin.so:vendor/lib/libmmcamera_plugin.so
-lib/libmmcamera_statsproc31.so:vendor/lib/libmmcamera_statsproc31.so
-lib/libmmjpeg_interface.so:vendor/lib/libmmjpeg_interface.so
+lib/hw/camera.vendor.qcom.so
+lib/libcald_client.so
+lib/libcald_hal.so
+lib/libcald_imageutil.so
+lib/libcald_pal.so
+lib/libcald_util.so
+lib/libcamera_clientsemc.so
+lib/libcameralight.so
+lib/libface.so
+lib/libmmcamera_3a_legacy.so
+lib/libmmcamera_faceproc.so
+lib/libmmcamera_frameproc.so
+lib/libmmcamera_imx091.so
+lib/libmmcamera_plugin.so
+lib/libmmcamera_statsproc31.so
+lib/libmmjpeg_interface.so
 vendor/camera/KMO08BN0_IMX111.dat
 vendor/camera/LGI02BN0.dat
 vendor/camera/LGI08BN2_DW9714.dat
@@ -40,50 +40,50 @@ vendor/camera/SOI13BS2_IMX135.dat
 vendor/camera/SOI13BS9.dat
 
 # DxHDCP firmware
-etc/firmware/dxhdcp2.b00:vendor/etc/firmware/dxhdcp2.b00
-etc/firmware/dxhdcp2.b01:vendor/etc/firmware/dxhdcp2.b01
-etc/firmware/dxhdcp2.b02:vendor/etc/firmware/dxhdcp2.b02
-etc/firmware/dxhdcp2.b03:vendor/etc/firmware/dxhdcp2.b03
-etc/firmware/dxhdcp2.mdt:vendor/etc/firmware/dxhdcp2.mdt
+etc/firmware/dxhdcp2.b00
+etc/firmware/dxhdcp2.b01
+etc/firmware/dxhdcp2.b02
+etc/firmware/dxhdcp2.b03
+etc/firmware/dxhdcp2.mdt
 
 # MultiMedia
-lib/libimage-jpeg-dec-omx-comp.so:vendor/lib/libimage-jpeg-dec-omx-comp.so
-lib/libimage-jpeg-enc-omx-comp.so:vendor/lib/libimage-jpeg-enc-omx-comp.so
+lib/libimage-jpeg-dec-omx-comp.so
+lib/libimage-jpeg-enc-omx-comp.so
 
 # Q6 Firmware
-etc/firmware/q6.b00:vendor/etc/firmware/q6.b00
-etc/firmware/q6.b01:vendor/etc/firmware/q6.b01
-etc/firmware/q6.b03:vendor/etc/firmware/q6.b03
-etc/firmware/q6.b04:vendor/etc/firmware/q6.b04
-etc/firmware/q6.b05:vendor/etc/firmware/q6.b05
-etc/firmware/q6.b06:vendor/etc/firmware/q6.b06
-etc/firmware/q6.mdt:vendor/etc/firmware/q6.mdt
+etc/firmware/q6.b00
+etc/firmware/q6.b01
+etc/firmware/q6.b03
+etc/firmware/q6.b04
+etc/firmware/q6.b05
+etc/firmware/q6.b06
+etc/firmware/q6.mdt
 
 # Sensors
-lib/libals.so:vendor/lib/libals.so
-lib/liblights-core.so:vendor/lib/liblights-core.so
-lib/libmllite.so:vendor/lib/liblights-core.so
-lib/libmlplatform.so:vendor/lib/libmlplatform.so
-lib/libmpl.so:vendor/lib/libmpl.so
--lib/libMPU3050.so:vendor/lib/libMPU3050.so
--lib/libsensors_akm8963.so:vendor/lib/libsensors_akm8963.so
-lib/libsys-utils.so:vendor/lib/libsensors_akm8963.so
+lib/libals.so
+lib/liblights-core.so
+lib/libmllite.so
+lib/libmlplatform.so
+lib/libmpl.so
+-lib/libMPU3050.so
+-lib/libsensors_akm8963.so
+lib/libsys-utils.so
 
 # TA
-bin/ta2bin:vendor/bin/ta2bin
+bin/ta2bin
 vendor/bin/ta_qmi_client
-lib/libmiscta.so:vendor/lib/libmiscta.so
--lib/libta.so:vendor/lib/libta.so
-etc/firmware/ta.mbn:vendor/etc/firmware/ta.mbn
+lib/libmiscta.so
+-lib/libta.so
+etc/firmware/ta.mbn
 
 # Trustzone Firmware
-etc/firmware/tzlibasb.b00:vendor/etc/firmware/tzlibasb.b00
-etc/firmware/tzlibasb.b01:vendor/etc/firmware/tzlibasb.b01
-etc/firmware/tzlibasb.b02:vendor/etc/firmware/tzlibasb.b02
-etc/firmware/tzlibasb.b03:vendor/etc/firmware/tzlibasb.b03
-etc/firmware/tzlibasb.mdt:vendor/etc/firmware/tzlibasb.mdt
-etc/firmware/tzsuntory.b00:vendor/etc/firmware/tzsuntory.b00
-etc/firmware/tzsuntory.b01:vendor/etc/firmware/tzsuntory.b01
-etc/firmware/tzsuntory.b02:vendor/etc/firmware/tzsuntory.b02
-etc/firmware/tzsuntory.b03:vendor/etc/firmware/tzsuntory.b03
-etc/firmware/tzsuntory.mdt:vendor/etc/firmware/tzsuntory.mdt
+etc/firmware/tzlibasb.b00
+etc/firmware/tzlibasb.b01
+etc/firmware/tzlibasb.b02
+etc/firmware/tzlibasb.b03
+etc/firmware/tzlibasb.mdt
+etc/firmware/tzsuntory.b00
+etc/firmware/tzsuntory.b01
+etc/firmware/tzsuntory.b02
+etc/firmware/tzsuntory.b03
+etc/firmware/tzsuntory.mdt

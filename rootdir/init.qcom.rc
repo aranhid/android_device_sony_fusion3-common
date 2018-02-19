@@ -227,7 +227,7 @@ on property:ro.data.large_tcp_window_size=true
     # Adjust socket buffer to enlarge TCP receive window for high bandwidth (e.g. DO-RevB)
     write /proc/sys/net/ipv4/tcp_adv_win_scale  2
 
-service config_bt_addr /vendor/bin/btnvtool -O
+service config_bt_addr /system/bin/btnvtool -O
     class core
     user bluetooth
     group bluetooth radio
@@ -237,7 +237,7 @@ on property:vold.decrypt=trigger_restart_framework
     start config_bt_addr
 
 # QMUX must be in multiple groups to support external process connections
-service qmuxd /vendor/bin/qmuxd
+service qmuxd /system/bin/qmuxd
     class core
     user radio
     group radio audio bluetooth gps wakelock 
@@ -257,7 +257,7 @@ on property:bluetooth.hciattach=true
 on property:bluetooth.hciattach=false
     setprop bluetooth.status off
 
-service netmgrd /vendor/bin/netmgrd
+service netmgrd /system/bin/netmgrd
     class late_start
     group radio system wakelock
     disabled
@@ -269,7 +269,7 @@ service fm_dl /vendor/bin/init.qcom.fm.sh
     disabled
     oneshot
 
-service mpdecision /vendor/bin/mpdecision --avg_comp
+service mpdecision /system/bin/mpdecision --avg_comp
     class main
     user root
     group root readproc
@@ -293,11 +293,11 @@ service wpa_supplicant /vendor/bin/hw/wpa_supplicant \
     oneshot
 
 # Kickstart checker
-service ks_checker /system/bin/sh /vendor/etc/kickstart_checker.sh
+service ks_checker /system/bin/sh /system/etc/kickstart_checker.sh
     class core
     oneshot
 
-service kickstart /vendor/bin/qcks l -r /data/tombstones/mdm/ -e /cache/qcks/
+service kickstart /system/bin/qcks l -r /data/tombstones/mdm/ -e /cache/qcks/
     class core
     user system
     group system radio
